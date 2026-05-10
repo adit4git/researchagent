@@ -68,6 +68,22 @@ In the UI, the default provider is **Gemini**. Set:
 export GEMINI_API_KEY=...
 ```
 
+## Deploy on Railway (Docker)
+
+This repo now includes a `Dockerfile` and startup script (`scripts/start.sh`) suitable for Railway.
+
+1. Push this repo to GitHub.
+2. In Railway, create a new project and select the repo.
+3. Railway will detect the `Dockerfile` and build the image.
+4. Set environment variables in Railway:
+   - `GEMINI_API_KEY` (or whichever provider key you use)
+   - `LLM_PROVIDER=gemini` (optional, UI already defaults to Gemini)
+5. Deploy.
+
+Notes:
+- Railway injects `PORT`; `scripts/start.sh` reads it automatically.
+- Container healthcheck uses `/_stcore/health`.
+
 ## Project structure
 
 ```
@@ -86,6 +102,10 @@ research_agent/
 │   └── run_evals.py    # Runs the golden set, scores results
 ├── examples/
 │   └── sample_run.md   # Example output
+├── scripts/
+│   └── start.sh        # Container startup script
+├── Dockerfile          # Docker image for Railway deploy
+├── .dockerignore
 ├── streamlit_app.py    # Streamlit web UI
 ├── requirements.txt
 └── README.md
