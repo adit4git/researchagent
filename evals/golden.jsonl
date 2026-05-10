@@ -1,0 +1,12 @@
+{"id": "py_gil", "topic": "What is the Python GIL and why does it matter for multithreading?", "must_mention": ["global interpreter lock", "thread", "cpython"], "min_sources": 2, "category": "technical"}
+{"id": "sqlite_postgres", "topic": "When should you use SQLite instead of PostgreSQL for a small SaaS app?", "must_mention": ["concurrent", "writes", "scale"], "min_sources": 2, "category": "tradeoff"}
+{"id": "rag_basics", "topic": "What is retrieval-augmented generation (RAG) and what are its main components?", "must_mention": ["embedding", "retriev", "vector"], "min_sources": 2, "category": "technical"}
+{"id": "rust_ownership", "topic": "Explain Rust's ownership model in plain English", "must_mention": ["borrow", "lifetime", "memory"], "min_sources": 2, "category": "technical"}
+{"id": "k8s_pods", "topic": "What is a Kubernetes pod and how does it differ from a container?", "must_mention": ["container", "pod", "namespace"], "min_sources": 2, "category": "technical"}
+{"id": "tcp_vs_udp", "topic": "What are the practical differences between TCP and UDP?", "must_mention": ["reliable", "connection", "packet"], "min_sources": 2, "category": "technical"}
+{"id": "agile_kanban", "topic": "What's the difference between Scrum and Kanban?", "must_mention": ["sprint", "wip", "backlog"], "min_sources": 2, "category": "process"}
+{"id": "oauth_basics", "topic": "How does OAuth 2.0 authorization code flow work?", "must_mention": ["client", "token", "redirect"], "min_sources": 2, "category": "security"}
+{"id": "monorepo", "topic": "What are the main tradeoffs of using a monorepo?", "must_mention": ["build", "depend", "scale"], "min_sources": 2, "category": "tradeoff"}
+{"id": "carbon_capture", "topic": "What are the leading approaches to carbon capture and storage in 2025?", "must_mention": ["direct air", "storage", "captur"], "min_sources": 2, "category": "domain"}
+{"id": "intermittent_fasting", "topic": "What does current research say about intermittent fasting and metabolic health?", "must_mention": ["insulin", "fast", "metabol"], "min_sources": 2, "category": "domain"}
+{"id": "fed_rates", "topic": "How does the Federal Reserve's policy on interest rates affect the housing market?", "must_mention": ["mortgage", "rate", "demand"], "min_sources": 2, "category": "domain"}
